@@ -43,7 +43,7 @@ fi
 
 # Always remove lib.sh, before downloading it
 rm -rf /tmp/lib.sh
-curl -sSL -o /tmp/lib.sh https://raw.githubusercontent.com/pterodactyl-installer/pterodactyl-installer/lib/lib.sh
+curl -sSL -o /tmp/lib.sh https://raw.githubusercontent.com/LyrexGit/pterodactyl-installer/lib/lib.sh
 # shellcheck source=lib/lib.sh
 source /tmp/lib.sh
 
